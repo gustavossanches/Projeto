@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    height: 100vh;
+    width: 100wh;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+.container-cafe{
+    background-color: red;
+    width: 40%;
+}
+
+.imagem-principal{
+    height: 50%;
+    background-color: lightgreen;
+}
+
+.imagem-principal img{
+    height: 100%;
+    width: 100%;
+}
+
+.coffe-menu{
+    height: 50%;
+
+}
+
+.tabela-coffe{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(150, 133, 133);
+}
+
+td, th{
+    text-align: center;
+}
+
+.tea-menu{
+    height: 50%;
+    background-color: yellow;
+}
+.special-items{
+    height: 30%;
+    background-color: orange;
+}
+
+.about{
+    height: 40%;
+    background-color: coral;
+}
+
+.talk{
+    height: 20%;
+    background-color: lightgoldenrodyellow;
+}
+
