@@ -28,6 +28,9 @@
 
 .coffe-menu{
     height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -44,6 +47,10 @@ td, th{
 .tea-menu{
     height: 50%;
     background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .special-items{
     height: 30%;
@@ -59,4 +66,24 @@ td, th{
     height: 20%;
     background-color: lightgoldenrodyellow;
 }
+
+.container-coffe{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-tea{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.tabela-tea{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(150, 133, 133);
+}
+
 
