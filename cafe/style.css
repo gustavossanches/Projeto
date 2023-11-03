@@ -1,7 +1,3 @@
-*{
-    padding: 0px;
-    margin: 0px;
-}
 
 .container{
     height: 100vh;
@@ -11,9 +7,17 @@
     justify-content: center;
 }
 
+.sec-titulo{
+    text-align: center;
+    font-size: 1.7em;
+}
+.sec-container{
+    padding: 1rem;
+}
+
 .container-cafe{
     background-color: red;
-    width: 40%;
+    width: 65%;
 }
 
 .imagem-principal{
@@ -53,8 +57,12 @@ td, th{
 
 }
 .special-items{
-    height: 30%;
+    height: 55%;
+    padding: 0.5rem;
     background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .about{
@@ -68,15 +76,15 @@ td, th{
 }
 
 .container-coffe{
-    height: 90%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
 
 .container-tea{
-    height: 90%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -85,5 +93,46 @@ td, th{
     width: 100%;
     background-color: rgb(150, 133, 133);
 }
+
+.special-container{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagens{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.sp{
+    margin-top: 1.5rem;
+    background-color: blue;
+    text-align: center;
+    height: 60%;
+    width: 40%;
+}
+
+
+.sp img{
+    height: 100%;
+    width: 90%;
+}
+
+.sp p{
+    font-size: 1.3em;
+    margin: 0.8rem;
+}
+
+.linha{
+    background-color: rgb(160, 151, 151);
+    width: 60%;
+    height: 2px;
+}
+
 
 
