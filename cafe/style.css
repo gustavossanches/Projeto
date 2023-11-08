@@ -154,5 +154,13 @@ td, th{
     height: 2px;
 }
 
+/*------- CSS ABOUT ------- */
+
+.container-about div{
+    background-color: red;
+}
+
+/*--------------------------*/
+
 
 
