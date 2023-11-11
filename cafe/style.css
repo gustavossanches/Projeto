@@ -1,19 +1,49 @@
 *{
-    font-family:  "Open Sans", Arial, Helvetica, sans-serif;;
+    font-family:  "Open Sans", Arial, Helvetica, sans-serif;
 }
-.container{
+
+main{
     height: 100vh;
-    width: 100wh;
-    background-color: lightblue;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: 2.5rem;
+}
+
+.logo i{
+    color: white;
+    font-size: 2rem;
+}
+
+.logo p{
+    color: white;
+    font-size: 2rem;
+    margin-left: 1rem
+}
+
+.container{
+    width: 100wh;
+    background-color: #3a4a58;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .sec-titulo{
     text-align: center;
-    font-size: 1.7em;
-    margin-bottom: 2rem;
-    color: rgb(141, 29, 29);
+    font-size: 1.6em;
+    margin: 2rem;
+    color: rgb(143 83 27);;
 }
 .sec-container{
     padding: 1rem;
@@ -22,13 +52,13 @@
 }
 
 .container-cafe{
-    background-color: red;
-    width: 35%;
+    width: 34%;
+    height: 100%;
+    background-color: white;
 }
 
 .imagem-principal{
-    height: 50%;
-    background-color: lightgreen;
+    height: 25rem;
 }
 
 .imagem-principal img{
@@ -37,7 +67,7 @@
 }
 
 .coffe-menu{
-    height: 50%;
+    height: 30rem;
     display: flex;
     justify-content: center;
 
@@ -45,16 +75,16 @@
 
 
 .tabela-coffe{
-    height: 100%;
+    height: 85%;
     width: 100%;
 }
 
 thead{
-    background-color: rgb(131, 128, 128);
+    background-color: rgb(187, 180, 180);
 }
 
 tr:nth-child(even){
-    background-color: lightgrey;
+    background-color: rgb(224, 224, 224);
 }
 
 tbody tr:nth-child(odd){
@@ -62,37 +92,52 @@ tbody tr:nth-child(odd){
 }
 
 td, th{
-    padding: 1rem;
-    padding-left: 1rem;
+    color: #898989;
+    padding: 0.8rem;
     text-align: start;
     vertical-align: middle;
 }
+th{
+    color: rgb(44, 44, 44);
+    padding: 1rem;
+}
 
 .tea-menu{
-    height: 50%;
-    background-color: yellow;
+    height: 30rem;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 .special-items{
-    height: 55%;
+    height: 25rem;
     padding: 0.5rem;
-    background-color: orange;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .about{
-    height: 40%;
-    background-color: coral;
+    height: 20rem;
 }
 
+.container-about{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-about p{
+    padding: 1rem 4.2rem;
+    text-align: start;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    color: #898989;
+}
 .talk{
-    height: 20%;
-    background-color: lightgoldenrodyellow;
+    height: 15rem;
 }
 
 .container-coffe{
@@ -109,7 +154,7 @@ td, th{
     justify-content: center;
 }
 .tabela-tea{
-    height: 100%;
+    height: 85%;
     width: 100%;
     background-color: rgb(150, 133, 133);
 }
@@ -118,6 +163,7 @@ td, th{
     height: 90%;
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -131,15 +177,14 @@ td, th{
 
 .sp{
     margin-top: 1.5rem;
-    background-color: blue;
     text-align: center;
-    height: 60%;
+    height: 75%;
     width: 40%;
 }
 
 
 .sp img{
-    height: 70%;
+    height: 80%;
     width: 90%;
 }
 
@@ -154,13 +199,92 @@ td, th{
     height: 2px;
 }
 
-/*------- CSS ABOUT ------- */
 
-.container-about div{
-    background-color: red;
+.container-talk{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 4rem;
+    
 }
 
-/*--------------------------*/
+
+.texto-talk{
+    height: 1rem;
+    margin-bottom: 3rem;
+}
+
+.texto-talk p{
+    font-size: 1.1rem;
+    color: #898989;
+    
+}
+
+i{
+    font-size: 6rem;
+    padding: 3px;
+}
+#icon{
+    color:#bbbbbb;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+#icon:hover{
+    transition: 0.2s;
+    color:#d3d3d3;
+}
+
+
+.copy{
+    margin: 2.5rem;
+    width: 35%;
+    text-align: center;
+    font-size: 0.85rem;
+    color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+    .container-cafe {
+        width: 60%;
+
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    .container-cafe {
+        width: 90%;
+
+    }
+  }
+
+@media only screen and (max-width: 425px) {
+    .container-cafe {
+        width: 100%;
+    }
+
+    .special-items {
+        flex-direction: column;
+    }
+
+    .special-items {
+        height: auto;
+    }
+
+    .imagens {
+        flex-direction: column;
+    }
+
+    .sp {
+        width: 100%;
+    }
+
+  }
+
+
 
 
 
