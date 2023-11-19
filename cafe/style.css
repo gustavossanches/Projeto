@@ -52,7 +52,7 @@ a{
 }
 
 .container-cafe{
-    width: 34%;
+    width: 50%;
     height: 100%;
     background-color: white;
 }
@@ -80,11 +80,11 @@ a{
 }
 
 thead{
-    background-color: rgb(187, 180, 180);
+    background-color: #c4cdd6;
 }
 
 tr:nth-child(even){
-    background-color: rgb(224, 224, 224);
+    background-color: #e5e8ed;
 }
 
 tbody tr:nth-child(odd){
@@ -118,7 +118,7 @@ th{
 }
 
 .about{
-    height: 20rem;
+    height: 25rem;
 }
 
 .container-about{
@@ -137,7 +137,7 @@ th{
     color: #898989;
 }
 .talk{
-    height: 15rem;
+    height: 13rem;
 }
 
 .container-coffe{
@@ -203,6 +203,7 @@ th{
 .container-talk{
     width: 100%;
     height: 100%;
+    padding: 4rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -228,14 +229,14 @@ i{
     padding: 3px;
 }
 #icon{
-    color:#bbbbbb;
+    color:#c5ced8;
     font-size: 3rem;
     padding-bottom: 2rem;
 }
 
 #icon:hover{
-    transition: 0.2s;
-    color:#d3d3d3;
+    transition: 0.5s;
+    color:#808e9e;
 }
 
 
@@ -280,6 +281,12 @@ i{
 
     .sp {
         width: 100%;
+    }
+
+  }
+@media only screen and (max-width: 425px) {
+    .talk {
+        height: 24rem;
     }
 
   }
